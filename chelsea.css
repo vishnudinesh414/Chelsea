@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "OpenSymbol";
+    src: url("Chelsea\ Basis\ Beta\ Bold.ttf") format("truetype");
+    src: url("Chelsea\ Basis\ Beta\ Medium.ttf") format("truetype");
+    src: url("Chelsea\ Basis\ Beta\ Regular.ttf") format("truetype");
+    
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: white;
+}
+.header{
+    
+    background-color: #001489;
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+    margin-top: 0px;
+    
+    
+}
+.hedsect1{
+    transform: translateY(-19%);
+    
+}
+
+.hedsect1 ul{
+    margin-left: 100px;
+    display: inline-block;
+    list-style: none;
+    
+
+}
+.hedsect1 ul li{
+    
+    float: left;
+}
+.hedsect1 ul a{
+    text-decoration: none;
+    font-family: "Chelsea\ Basis\ Beta\ Bold.ttf","OpenSymbol";
+    color: white;
+    margin: 12px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.hedsect2{
+    margin-left: 1064px;
+    margin-top: -53px;
+}
+.hedsect2 img{
+    float: left;
+    margin: 0px;
+    display: inline-block;
+}
+.seched{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin: 0px;
+    
+}
+.sechedsec1 ul{
+    display: inline-block;
+    list-style: none;
+    margin-left: 102px;
+}
+.sechedsec1 ul li{
+    float: left;
+    margin: 10px;
+    
+}
+.sechedsec1 ul a{
+    color: #30275d;
+    text-decoration: none;
+    font-family: "Chelsea\ Basis\ Beta\ Medium.ttf","OpenSymbol";
+    font-size: 17px;
+}
+.sechedsec1{
+    transform: translateY(3%);
+}
+.sechedsec2{
+    margin-left: 1128px;
+    margin-top: -52px;
+
+}
+.sechedsec2 i,p{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+.sechedsec2 i{
+    color: #140a47;
+    margin-top: 7px;
+    width: 30x;
+    height: 30px;
+}
+.sechedsec2 p{
+    font-family: "Chelsea\ Basis\ Beta\ Medium.ttf","OpenSymbol";
+    color: #30275d;
+    font-size: 17px;
+    
+}
+.logo{
+    position: absolute;
+    top: 14px;
+    left: 25px;
+}
+.player img{
+    width: 100%
+    
+}
+.caption p{
+    position: absolute;
+    font-family: "Chelsea\ Basis\ Beta\ Bold.ttf","OpenSymbol";
+    color: white;
+    font-size: 37.44px;
+    float: left;
+    margin-left: 80px;
+    margin-top: -168px;
+}
+.bulletin ul{
+   
+    display: inline-block;
+    list-style: none;
+    top: 25px;
+    bottom: 25px;
+    
+}
+.bulletin ul li{
+    
+    float: left;
+    margin: 1px;
+    
+}
+.bulletin ul i{
+    
+    color: white;
+    font-size: 15px;
+
+}
+.latestvideo {
+    float: left;
+    width: 100%;
+
+}
+.latestvideo p{
+    font-family: "Chelsea\ Basis\ Beta\ Bold.ttf","OpenSymbol";
+    font-size: 40px;
+    font-weight: 700;
+    color: #140a47;
+}
+.gridcontainer{
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    gap: 0px;
+    grid-auto-rows: minmax(100px,auto);
+    margin-bottom: 1rem;
+}
+.gridcontainer p{
+    font-family: "Chelsea\ Basis\ Beta\ Regular.ttf","OpenSymbol";
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+.imgcap p{
+    vertical-align: 0%;
+    font-family: "Chelsea\ Basis\ Beta\ Bold.ttf","OpenSymbol";
+    color: #001489 ;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img1{
+    transition: transform .1s;
+}
+.img1:hover:hover{
+  transform: scale(1.1); 
+}
+
+.colvido {
+    padding-bottom: 360px;
+}
+
+.colvido button{
+    position: absolute;
+    top: 1243px;
+    left: 408px;
+    background-color: white; 
+    border: 2px solid #001489;
+    width :350px;
+    color:  #187aff;
+    font-family: "Chelsea\ Basis\ Beta\ Bold.ttf","OpenSymbol";
+    font-size: 14px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: ease-out 0.3s;
+    z-index: 1;
+}
+.colvido button:hover{
+    color: white;
+    cursor: pointer;
+}
+.colvido button:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #001489;
+}
+.colvido button:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    height: 392px;
+}
+.nav ul{
+    margin-left: 279px;
+    justify-content: center;
+}
+.nav ul li{
+    float: left;
+}
+footer{
+    background-image: linear-gradient(#001489, #001489);
+    margin-top: 1rem;
+    padding-top: 20px;
+    height: 241px;
+    
+
+}
+footer .row-1 ul{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.row-1 ul li{
+    padding: 1rem;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 1rem;
+}
+footer .row-2 ul{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.row-2 ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    font-family: "Chelsea\ Basis\ Beta\ Medium.ttf","OpenSymbol";
+    color: white;
+    
+}
+.row-3{
+    transform: translateX(21%);
+}
+.row-3 p{
+    font-family: "Chelsea\ Basis\ Beta\ Medium.ttf","OpenSymbol"; 
+    color: white;
+}
+.English{
+    transform: translateX(-11%);
+    margin-top: 55px;
+    
+}
